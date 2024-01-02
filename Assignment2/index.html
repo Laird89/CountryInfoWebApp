@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/lairdch.css" rel="stylesheet" />
+    <script src="scripts/lairdch.js"></script>
+    <title>lairdch-991279847</title>
+  </head>
+  <body onload="loadCountries()">
+    <header id="header"></header>
+    <div class="gridArea">
+        <section class="pick">
+            <h2>Select a Country to See the Details</h2>
+            <select id="selectBox" onchange="selectCountry()">
+                <option>Select a Country</option>
+            </select>
+        </section>
+        <section id="countryInfo">
+            <h2>Country Information</h2>
+        </section>
+    </div>
+    <footer id="footer"></footer>
+  </body>
+</html>

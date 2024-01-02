@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: #E6D5B8;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+img{
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+#back{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;  
+    outline: none;  
+    justify-content: center; 
+    border: 1px solid #121212;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+  }
+  
+  #back:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  }
+
+.card {
+    grid-area: pick;
+    padding: 1rem;
+    background: #f0a400f7;
+    font-family: 'Open Sans', sans-serif;
+    color: #1B1A17;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+
+  .countryInfo{
+    font-weight: bold;
+  }
+
+
+  @media (max-width: 480px) {
+    img{
+        width: 220px;
+        height: 90px;
+    }
+
+}
