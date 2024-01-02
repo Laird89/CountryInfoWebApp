@@ -43,12 +43,3 @@ The **Country Information Web App** is an interactive web-based platform designe
 - **country.css:** CSS file specific to the country.html page for styling the detailed country view.
 
 - **countries.json:** JSON file containing a list of countries with basic information.
-
-## How to Use
-
-1. Open `index.html` in a web browser.
-2. Select a country from the dropdown list.
-3. View basic information on the index page or click on a country to see detailed information.
-4. Use the "Go Back" button on the detailed country page to return to the index page.
-
-Feel free to explore, learn, and customize this project for your needs!
